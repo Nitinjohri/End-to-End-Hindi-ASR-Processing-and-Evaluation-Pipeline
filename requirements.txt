@@ -1,0 +1,31 @@
+# Core data processing
+pandas
+numpy
+openpyxl
+requests
+tqdm
+
+# Audio processing
+librosa
+soundfile
+pydub
+torchaudio
+
+# ASR & NLP
+transformers>=4.37.0
+datasets>=2.16.0
+accelerate>=0.26.0
+evaluate>=0.4.1
+jiwer>=3.0.3
+huggingface_hub
+
+# Spelling classification
+python-Levenshtein
+
+# Visualization & formatting
+matplotlib
+tabulate
+unicodedata2
+
+# Deep learning
+torch
