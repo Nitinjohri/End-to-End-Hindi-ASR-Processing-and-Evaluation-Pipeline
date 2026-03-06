@@ -188,7 +188,7 @@ End-to-End-Hindi-ASR-Processing-and-Evaluation-Pipeline/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── codes/
+├── notebooks/
 │   ├── whisper_hindi_finetuning.ipynb          # Whisper fine-tuning pipeline
 │   ├── disfluency_detection.ipynb              # Disfluency detection & audio clipping
 │   ├── spelling_classification_pipeline.ipynb  # Hindi spelling classification
