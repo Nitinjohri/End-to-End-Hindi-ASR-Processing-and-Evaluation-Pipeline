@@ -27,13 +27,13 @@ Lattice-Based WER Evaluation
 
 ## 📑 Table of Contents
 
-- Notebooks
-- Results & Outputs
-- Quick Start
-- Dataset Format
-- Tech Stack
-- Project Structure
-- License
+- [Notebooks](#notebooks)
+- [Results & Outputs](#-results--outputs)
+- [Quick Start](#-quick-start)
+- [Dataset Format](#-dataset-format)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [License](#-license)
 
 ##  Notebooks
 
