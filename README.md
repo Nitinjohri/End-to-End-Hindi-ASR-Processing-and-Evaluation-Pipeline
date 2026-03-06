@@ -1,10 +1,39 @@
 # 🎙️ End-to-End Hindi ASR Processing and Evaluation Pipeline
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Framework](https://img.shields.io/badge/PyTorch-HuggingFace-orange)
+![Model](https://img.shields.io/badge/Model-OpenAI%20Whisper-green)
+![Platform](https://img.shields.io/badge/Platform-Google%20Colab-yellow)
+
 A comprehensive suite of **four Jupyter notebooks** for Hindi Automatic Speech Recognition (ASR) — covering fine-tuning, evaluation, disfluency detection, spelling classification, and lattice-based WER analysis.
 
 > **Designed for Google Colab** (GPU runtime recommended for fine-tuning)
 
 ---
+
+## 🔁 System Pipeline
+
+Audio Dataset  
+↓  
+Whisper Fine-Tuning  
+↓  
+ASR Transcription  
+↓  
+Disfluency Detection  
+↓  
+Spelling Classification  
+↓  
+Lattice-Based WER Evaluation
+
+## 📑 Table of Contents
+
+- [Notebooks](#notebooks)
+- [Results & Outputs](#-results--outputs)
+- [Quick Start](#-quick-start)
+- [Dataset Format](#-dataset-format)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [License](#-license)
 
 ##  Notebooks
 
@@ -82,7 +111,19 @@ Builds a **confusion lattice** from multiple ASR model outputs to compute a fair
 
 ## 📊 Results & Outputs
 
-All pipeline outputs are saved in the `outputs/` directory. The **Whisper Hindi fine-tuning** notebook produces a visualization comparing baseline vs fine-tuned WER, demonstrating the improvement achieved after training on the custom Hindi dataset. The **Lattice-based WER pipeline** generates a chart contrasting standard WER against lattice-corrected WER across ASR models, highlighting how multi-model consensus reduces evaluation bias caused by human reference errors. The **spelling classification pipeline** exports a detailed Excel file containing every word from the dataset along with its classification label (correct/incorrect), enabling further analysis and review. The **disfluency detection** notebook outputs a CSV file with segment-level disfluency annotations, including the detected category (filler, repetition, false start, prolongation, or hesitation) and corresponding timestamps for each flagged segment.
+All pipeline outputs are saved in the [`outputs/`](outputs/) directory.
+
+### 🔹 Whisper Hindi Fine-Tuning Output
+
+Baseline vs fine-tuned WER comparison — demonstrates the improvement achieved after training on the custom Hindi dataset.
+
+![Whisper Fine-Tuning WER Comparison](outputs/whisper_hindi_finetuning_output.png)
+
+### 🔹 Lattice-Based WER Output
+
+Standard WER vs lattice-corrected WER across ASR models — highlights how multi-model consensus reduces evaluation bias caused by human reference errors.
+
+![Lattice vs Standard WER](outputs/lattice_wer_pipeline_output.png)
 
 ---
 
