@@ -11,6 +11,20 @@ A comprehensive suite of **four Jupyter notebooks** for Hindi Automatic Speech R
 
 ---
 
+## 🔁 System Pipeline
+
+Audio Dataset  
+↓  
+Whisper Fine-Tuning  
+↓  
+ASR Transcription  
+↓  
+Disfluency Detection  
+↓  
+Spelling Classification  
+↓  
+Lattice-Based WER Evaluation
+
 ## 📑 Table of Contents
 
 - Notebooks
