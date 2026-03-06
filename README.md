@@ -11,6 +11,16 @@ A comprehensive suite of **four Jupyter notebooks** for Hindi Automatic Speech R
 
 ---
 
+## 📑 Table of Contents
+
+- Notebooks
+- Results & Outputs
+- Quick Start
+- Dataset Format
+- Tech Stack
+- Project Structure
+- License
+
 ##  Notebooks
 
 ### 1. Whisper Hindi Fine-Tuning (`whisper_hindi_finetuning.ipynb`)
