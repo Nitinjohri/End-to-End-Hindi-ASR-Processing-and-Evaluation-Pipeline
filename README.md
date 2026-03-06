@@ -1,4 +1,4 @@
-# 🎙️ End-to-End Hindi ASR Processing and Evaluation Pipeline
+# 🎙️ Hindi Speech Recognition and Evaluation
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![Framework](https://img.shields.io/badge/PyTorch-HuggingFace-orange)
