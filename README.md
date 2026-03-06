@@ -1,5 +1,10 @@
 # 🎙️ End-to-End Hindi ASR Processing and Evaluation Pipeline
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Framework](https://img.shields.io/badge/PyTorch-HuggingFace-orange)
+![Model](https://img.shields.io/badge/Model-OpenAI%20Whisper-green)
+![Platform](https://img.shields.io/badge/Platform-Google%20Colab-yellow)
+
 A comprehensive suite of **four Jupyter notebooks** for Hindi Automatic Speech Recognition (ASR) — covering fine-tuning, evaluation, disfluency detection, spelling classification, and lattice-based WER analysis.
 
 > **Designed for Google Colab** (GPU runtime recommended for fine-tuning)
