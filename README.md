@@ -4,6 +4,9 @@
 ![Framework](https://img.shields.io/badge/PyTorch-HuggingFace-orange)
 ![Model](https://img.shields.io/badge/Model-OpenAI%20Whisper-green)
 ![Platform](https://img.shields.io/badge/Platform-Google%20Colab-yellow)
+![License](https://img.shields.io/badge/License-Research-lightgrey)
+
+End-to-end Hindi speech processing pipeline combining **Whisper fine-tuning, disfluency detection, spelling validation, and lattice-based WER evaluation**.
 
 A comprehensive suite of **four Jupyter notebooks** for Hindi Automatic Speech Recognition (ASR) — covering fine-tuning, evaluation, disfluency detection, spelling classification, and lattice-based WER analysis.
 
@@ -198,6 +201,13 @@ End-to-End-Hindi-ASR-Processing-and-Evaluation-Pipeline/
 ```
 
 ---
+
+## 🔮 Future Work
+
+- Fine-tune larger Whisper models (medium / large)
+- Extend disfluency detection using neural sequence models
+- Add evaluation for additional Indian languages
+- Build a web interface for ASR benchmarking
 
 ## 📝 License
 
