@@ -52,7 +52,6 @@ desktop.ini
 *.onnx
 
 # Output directories
-output/
 processed/
 whisper-hi-finetuned/
 clips/
